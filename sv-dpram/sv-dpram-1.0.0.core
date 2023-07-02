@@ -1,0 +1,20 @@
+CAPI=2:
+name: kwilke:simple:sv-dpram:1.0.0
+description: A Dual Ported RAM module
+
+filesets:
+  rtl:
+    files:
+      - dpram.sv
+    file_type: systemVerilogSource
+
+targets:
+  default:
+    filesets:
+      - rtl
+
+provider:
+  name: github
+  user: KennethWilke
+  repo: sv-dpram
+  version: 1.0.0

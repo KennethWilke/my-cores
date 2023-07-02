@@ -1,0 +1,21 @@
+CAPI=2:
+name: kwilke:simple:sv-graycode:1.0.0
+description: Binary/Gray code converters
+
+filesets:
+  rtl:
+    files:
+      - binary_to_gray.sv
+      - gray_to_binary.sv
+    file_type: systemVerilogSource
+
+targets:
+  default:
+    filesets:
+      - rtl
+
+provider:
+  name: github
+  user: KennethWilke
+  repo: sv-graycode
+  version: 1.0.0
